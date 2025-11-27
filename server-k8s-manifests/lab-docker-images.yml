@@ -4,7 +4,7 @@ metadata:
   name: lab-docker-images
   labels:
     app: lab-docker-images
-    release-date: RELEASE-DATE
+    release-date: s1764224267
   namespace: lab-docker-images
 spec:
   replicas: 1
@@ -16,7 +16,7 @@ spec:
       labels:
         app: lab-docker-images
         svc: frontend
-        release-date: RELEASE-DATE
+        release-date: s1764224267
     spec:
       containers:
       - name: lab-docker-images-server
