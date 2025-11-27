@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: lab-docker-images-server
-        image: AlexZhenin/lab-docker-images:latest
+        image: alexzhenin/lab-docker-images:latest
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8000
