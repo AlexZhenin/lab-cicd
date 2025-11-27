@@ -1,6 +1,5 @@
 import http.server
 import socketserver
-import docstring
 PORT = 8000
 class TestMe():
     def take_five(self):
